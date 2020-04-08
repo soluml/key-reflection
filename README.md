@@ -18,11 +18,14 @@ Pass `key-reflection` an array of strings with an optional prefix/suffix and it 
 ```
 const key_reflection = require('key-reflection');
 
-const enums = key_reflection(["A", "B"]); // {A: "A", B: "B"}
+const enums = key_reflection(["A", "B"]);
+// {A: "A", B: "B"}
 
-const prefixedEnums = key_reflection(["A", "B"], { prefix: 'PREFIX_' }); // {PREFIX_A: "PREFIX_A", PREFIX_B: "PREFIX_B"}
+const prefixedEnums = key_reflection(["A", "B"], { prefix: 'PREFIX_' });
+// {PREFIX_A: "PREFIX_A", PREFIX_B: "PREFIX_B"}
 
-const suffixedEnums = key_reflection(["A", "B"], { suffix: '_SUFFIX' }); // {A_SUFFIX: "A_SUFFIX", B_SUFFIX: "B_SUFFIX"}
+const suffixedEnums = key_reflection(["A", "B"], { suffix: '_SUFFIX' });
+// {A_SUFFIX: "A_SUFFIX", B_SUFFIX: "B_SUFFIX"}
 ```
 
 You can also target prefixes and suffixes at just the Key's or Value's depending on your needs.
