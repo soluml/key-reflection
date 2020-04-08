@@ -33,8 +33,13 @@ You can also target prefixes and suffixes at just the Key's or Value's depending
 ## Options
 
 **prefix:** Prefixes both the keys and values in the resulting array.
+
 **prefixKey:** Prefixes the keys in the resulting array.
+
 **prefixValue:** Prefixes the values in the resulting array.
+
 **suffix:** Suffixes both the keys and values in the resulting array.
+
 **suffixKey:** Suffixes the keys in the resulting array.
+
 **suffixValue:** Suffixes the values in the resulting array.
