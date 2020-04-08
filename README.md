@@ -28,7 +28,7 @@ const suffixedEnums = key_reflection(["A", "B"], { suffix: '_SUFFIX' });
 // {A_SUFFIX: "A_SUFFIX", B_SUFFIX: "B_SUFFIX"}
 ```
 
-You can also target prefixes and suffixes at just the Key's or Value's depending on your needs.
+You can also target prefixes and suffixes at just the key or value depending on your needs as seen in the options below.
 
 ## Options
 
