@@ -13,6 +13,8 @@ Pass `key-reflection` an array of strings with an optional prefix/suffix and it 
 
 ## Usage
 
+The first option is the array you wish to reflect. The second is the options to set any prefixes or suffixes if desired.
+
 `key_reflection(ARRAY, OPTIONS)`
 
 ```
