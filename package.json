@@ -1,6 +1,6 @@
 {
   "name": "key-reflection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an enum object from an array of keys with optional prefixes and suffixes. IE9+ Support. No dependencies.",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/soluml/key-reflection#readme",
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^8.0.1"
   }
 }
